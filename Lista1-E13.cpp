@@ -5,9 +5,11 @@ int main() {
 	float km, consumo;
 	char type;
 	
-	printf("Digite a Quilometragem a ser percorrida e o tipo de carro (A,B,C) :");
-	scanf("%f %c",&km,&type);
-	
+	printf("Digite a Quilometragem a ser percorrida:");
+	scanf("%f\n",&km);
+	printf("Digite o tipo de carro (A, B, C): ")
+	scanf("%c\n", &type);
+
 	switch (type){
 		case ('A'):
 		consumo = km/12;
